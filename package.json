@@ -1,5 +1,5 @@
 {
-  "name": "gcd",
+  "name": "gcd-lib",
   "version": "1.0.0",
   "description": "Euclidean algorithm By JS",
   "main": "./dist/gcd.js",
