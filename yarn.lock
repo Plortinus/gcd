@@ -1556,6 +1556,18 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+gcd-lib@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gcd-lib/-/gcd-lib-1.0.0.tgz#9ce876d463bfb122585f456d00cbacd63f88e119"
+  dependencies:
+    babel-core "^6.26.3"
+    babel-loader "^7.1.4"
+    html-loader "^0.5.5"
+    html-webpack-plugin "^3.2.0"
+    webpack "^4.13.0"
+    webpack-cli "^3.0.8"
+    webpack-dev-server "^3.1.4"
+
 get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
