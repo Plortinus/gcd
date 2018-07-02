@@ -4,9 +4,9 @@
  * @param {*} y 正整数
  */
 function gcd(x, y) {
-  const balance = Math.abs(x - y)
+  const difference = Math.abs(x - y)
   const smaller = x > y ? y : x
-  return balance === 0 ? x : gcd(balance, smaller)
+  return difference ? gcd(difference, smaller) : x
 }
 
 export default gcd
